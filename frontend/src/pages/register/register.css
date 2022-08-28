@@ -1,0 +1,66 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:linear-gradient(
+        rgba(15, 14, 14, 0.5),
+        rgba(15, 14, 14, 0.5)
+    ) ,
+    url("https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    align-items: center;
+
+}
+
+.registerTitle{
+    font-size: 50px;
+    color: white;
+}
+
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm > label{
+    margin: 10px 0;
+    color: white;
+}
+
+.registerInput{
+    background-color: white;
+    padding: 10px;
+    border: none;
+}
+
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(207, 177, 120);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.registerLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 70px;
+    background-color: goldenrod;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.registerButton:hover{
+    background-color: rgb(127, 11, 11);
+}
+
+.registerLoginButton:hover{
+    background-color: rgb(127, 11, 11);
+}
